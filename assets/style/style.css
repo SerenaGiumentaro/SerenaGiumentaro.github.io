@@ -305,7 +305,7 @@ a:hover ~.cube{
 }
 .img-animated{
     /* height: 45rem; */
-    background-image: url("assets/img/hello.png");
+    background-image: url("/assets/img/hello.png");
  /* border:2px solid rgb(28, 90, 84); */
  width: 30rem;
  animation: hello 3s steps(20) infinite;
