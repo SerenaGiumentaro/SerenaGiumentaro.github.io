@@ -345,25 +345,7 @@ a:hover ~.cube{
     animation: lava 10s reverse infinite;
 }
 
-/* .custom-shape-divider-top-1644149888 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-} */
 
-/* .custom-shape-divider-top-1644149888 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 138px;
-}
-
-.custom-shape-divider-top-1644149888 .shape-fill {
-    fill: #000000;
-} */
 /* skills bar  */
 
 #skills h1{
@@ -385,7 +367,7 @@ a:hover ~.cube{
     height: 80%;
     margin-left: 1.25rem;
     border: 1px solid black;
-    background-image: url(/portfolio/assets/img/ballo2.png);
+    background-image: url(/assets/img/ballo2.png);
     animation: ballo 4s steps(19) infinite;
 }
 @keyframes ballo {
