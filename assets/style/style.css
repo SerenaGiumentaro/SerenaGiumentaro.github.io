@@ -287,7 +287,6 @@ a:hover ~.cube{
     top:-45%;
     left:12.5rem;
     /* background:yellow; */
-    background-image: url("/portfolio/assets/img/skill.jpg");
 }
 .second{
     background-color: violet;
@@ -306,7 +305,7 @@ a:hover ~.cube{
 }
 .img-animated{
     /* height: 45rem; */
-    background: transparent url('/portfolio/assets/img/hello.png') 0 0 no-repeat;
+    background-image: url("/SerenaGiumentaro.github.io/assets/img/hello.png");
  /* border:2px solid rgb(28, 90, 84); */
  width: 30rem;
  animation: hello 3s steps(20) infinite;
