@@ -42,33 +42,33 @@ h1:hover{
  animation: neon 3s forwards;
 }
 @keyframes neon {
-    0%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    0%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
     20%{text-shadow: none;}
-    30%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    30%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
     60%{text-shadow: none;}
-    100%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    100%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
 }
@@ -226,7 +226,7 @@ header{
     background-color: #d81159;
     transform: translateZ(-6.25rem);
     filter: blur(.938rem);
-    
+
     box-shadow: 0 0 6.25rem rgb(216, 17, 89),
                 0 0 9.375rem  rgb(216, 17, 89,0.8),
                 0 0 9.375rem  rgb(216, 17, 89,0.6),
@@ -247,7 +247,7 @@ div a {
     position: relative;
 }
 .empty{
-    position: absolute; 
+    position: absolute;
     width: 6.25rem;
     height: 6.25rem;
     z-index: 1;
@@ -352,7 +352,7 @@ a:hover ~.cube{
     border: 1px solid black;
     background-image: url(/SerenaGiumentaro.github.io/assets/img/ballo.png);
     animation: ballo 5s steps(19) infinite;
-    border: none; 
+    border: none;
 }
 .profile-photo:hover{
     background-image: url(/SerenaGiumentaro.github.io/assets/img/what.jpeg);
@@ -640,7 +640,7 @@ footer div{
 }
 .copyright{
     height: 2rem;
-    
+
 }
 .up{
     position: fixed;
@@ -702,12 +702,12 @@ footer div{
     }
 }
 @media screen and (max-width:19.938rem) {
-   
+
     .skills-name {
        width: 5rem;
     }
     .skills-name div{
         font-size: .5rem;
     }
-    
+
 }
