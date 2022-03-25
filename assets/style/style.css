@@ -165,7 +165,7 @@ header{
 .profile-mobile{
     width: 15rem;
     height:22rem;
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/profile.jpeg);
+    background-image: url(/assets/img/profile.jpeg);
     background-size:15rem 25rem ;
     display: none;
     margin: auto;
@@ -278,27 +278,27 @@ a:hover ~.cube{
 }
 .first{
     top:-45%;
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/skill.jpeg);
+    background-image: url(/assets/img/skill.jpeg);
 }
 .second{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/about-me.jpeg);
+    background-image: url(/assets/img/about-me.jpeg);
     top:-245%;
 }
 .third{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/project.jpg);
+    background-image: url(/assets/img/project.jpg);
     top:-445%;
 }
 .fourth{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/contact-me.jpeg);
+    background-image: url(/assets/img/contact-me.jpeg);
     top:-645%;
 }
 .img-animated{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/profile.jpeg);
+    background-image: url(/assets/img/profile.jpeg);
     background-repeat: no-repeat;
     width: 30rem;
 }
 .img-animated:hover{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/hello.png);
+    background-image: url(/assets/img/hello.png);
     animation: hello 5s steps(18) infinite;
 }
 @keyframes hello {
@@ -350,12 +350,12 @@ a:hover ~.cube{
     height: 80%;
     margin-left: 1.25rem;
     border: 1px solid black;
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/ballo.png);
+    background-image: url(/assets/img/ballo.png);
     animation: ballo 5s steps(19) infinite;
     border: none;
 }
 .profile-photo:hover{
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/what.jpeg);
+    background-image: url(/assets/img/what.jpeg);
     animation: none;
 }
 .profile-photo:hover p{
@@ -596,7 +596,7 @@ form{
 .say-goodbye{
     height: 25rem;
     width: 18rem;
-    background-image: url(/SerenaGiumentaro.github.io/assets/img/byebye.png);
+    background-image: url(/assets/img/byebye.png);
     animation: hellohello 6s steps(23) infinite;
 }
 @keyframes hellohello {
