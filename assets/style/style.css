@@ -5,7 +5,6 @@
     --primary-font:'Gruppo', cursive;
     --secondary-font:'Merriweather', serif;
 }
-
 *{
     margin:0;
     padding: 0;
@@ -35,43 +34,41 @@
     align-items: center;
     justify-content: center;
 }
-
 h1{
     color:var(--bianco);
     cursor:default;
 }
 h1:hover{
  animation: neon 3s forwards;
-
 }
 @keyframes neon {
-    0%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    0%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
     20%{text-shadow: none;}
-    30%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    30%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
     60%{text-shadow: none;}
-    100%{    text-shadow:#FFF 0px 0px 5px, 
-        #FFF 0px 0px 10px, 
-        #FFF 0px 0px 15px, 
+    100%{    text-shadow:#FFF 0px 0px 5px,
+        #FFF 0px 0px 10px,
+        #FFF 0px 0px 15px,
         #FF2D95 0px 0px 20px,
-        #FF2D95 0px 0px 30px, 
-        #FF2D95 0px 0px 40px, 
-        #FF2D95 0px 0px 50px, 
+        #FF2D95 0px 0px 30px,
+        #FF2D95 0px 0px 40px,
+        #FF2D95 0px 0px 50px,
         #FF2D95 0px 0px 75px,
          2px 2px 2px rgba(216,17,89,0);}
 }
@@ -97,15 +94,12 @@ header{
 .logo{
     padding-top:2rem;
 }
-
 .layer{
     margin: 3.125rem auto 1.563rem auto ;
     width: 6.25rem;
     height: 6.25rem;
     position: relative;
     border-radius: 50%;
-
-   
 }
 .circle{
     width: 100%;
@@ -148,7 +142,6 @@ header{
     transition: 2s;
     transform: translate(-0.938rem,-0.313rem) rotateY(-15deg)skewY(-10deg);
 }
-
 .layer:hover .one{
     transform: translate(-.938rem,-.938rem);
     animation: border 2s linear forwards;
@@ -168,6 +161,15 @@ header{
     transform: translate(-2.813rem,-2.813rem);
     background-color: #D8115930;
 }
+/* profile image for mobile  */
+.profile-mobile{
+    width: 15rem;
+    height:22rem;
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/profile.jpeg);
+    background-size:15rem 25rem ;
+    display: none;
+    margin: auto;
+}
 /* cube  */
 .container-menu{
     justify-content: center;
@@ -175,14 +177,11 @@ header{
     width: 100%;
 }
 .menu{
-    /* border:2px solid wheat; */
     width: 18.75rem;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
-
 .cube{
     margin: 2.5rem 0;
     position: relative;
@@ -211,7 +210,6 @@ header{
     height: 100%;
     background: linear-gradient(#050505,#D81159);
     transform: rotateY(calc(90deg*var(--i)))translateZ(1.563rem);
- 
     transform-style: preserve-3d;
 }
 .top{
@@ -228,6 +226,7 @@ header{
     background-color: #d81159;
     transform: translateZ(-6.25rem);
     filter: blur(.938rem);
+
     box-shadow: 0 0 6.25rem rgb(216, 17, 89),
                 0 0 9.375rem  rgb(216, 17, 89,0.8),
                 0 0 9.375rem  rgb(216, 17, 89,0.6),
@@ -244,78 +243,66 @@ span p{
     transform: translateZ(3.125rem);
     text-decoration: none;
 }
-
 div a {
     position: relative;
-
 }
 .empty{
-    position: absolute; 
+    position: absolute;
     width: 6.25rem;
     height: 6.25rem;
     z-index: 1;
     transform: translateY(3.75rem);
 }
-
 a:hover ~.cube{
     animation: hover 3s forwards;
 }
-
 @keyframes hover {
     0%{    transform: rotateX(-90deg) rotateY(0deg);    }
    100%{    transform: rotateX(-40deg) rotateY(40deg);    }
-
 }
-
 .img-pointer{
     position: relative;
     border:1px solid;
     width: 30rem;
     height: 50rem;
-
-
 }
 .item1 .empty:hover .first,.item2 .empty:hover .second,.item3 .empty:hover .third,.item4 .empty:hover .fourth{
    display:block;
-
-
 }
 .first,.second,.third,.fourth{
     display: none;
 }
+.first,.second,.third,.fourth{
+    left:12.5rem;
+    border:none;
+}
 .first{
     top:-45%;
-    left:12.5rem;
-    /* background:yellow; */
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/skill.jpeg);
 }
 .second{
-    background-color: violet;
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/about-me.jpeg);
     top:-245%;
-    left: 12.5rem;
 }
 .third{
-    background-color: rgb(143, 238, 130);
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/project.jpg);
     top:-445%;
-    left: 12.5rem;
 }
 .fourth{
-    background-color: rgb(189, 23, 23);
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/contact-me.jpeg);
     top:-645%;
-    left: 12.5rem;
 }
 .img-animated{
-    /* height: 45rem; */
-    background-image: url("/assets/img/hello.png");
- /* border:2px solid rgb(28, 90, 84); */
- width: 30rem;
- animation: hello 3s steps(20) infinite;
-
- /* background-color:rgb(28, 83, 184) ; */
- 
- 
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/profile.jpeg);
+    background-repeat: no-repeat;
+    width: 30rem;
+}
+.img-animated:hover{
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/hello.png);
+    animation: hello 5s steps(18) infinite;
 }
 @keyframes hello {
-    100%{background-position: -9640px,0;}
+    100%{background-position: -8676px,0;}
 }
 .img-animated::after,.img-animated::before{
     content: "";
@@ -324,20 +311,17 @@ a:hover ~.cube{
     height: 12rem;
     top: 59.7em;
     z-index: 2;
-    
 }
 @keyframes lava {
     0%{border-radius: 100% 0% 50% 50% / 100% 100% 0% 0% ;}
     50%{border-radius: 0% 100% 50% 50% / 100% 100% 0% 0% ;}
     100%{border-radius:100% 0% 50% 50% / 100% 100% 0% 0%  ;}
-
 }
 .img-animated::after{
     border-radius: 100% 0% 50% 50% / 100% 100% 0% 0%   ;
     background-color: var(--magenta);
     animation: lava 10s linear infinite;
     animation-delay: 5s;
-
 }
 .img-animated::before{
     border-radius: 0% 100% 59% 41% / 100% 100% 0% 0%   ;
@@ -347,7 +331,6 @@ a:hover ~.cube{
 
 
 /* skills bar  */
-
 #skills h1{
     color: var(--magenta);
 }
@@ -363,16 +346,29 @@ a:hover ~.cube{
                   -.625rem -.625rem .625rem #ffffff ;
 }
 .profile-photo{
-    width: 18.75rem;
+    width: 16rem;
     height: 80%;
     margin-left: 1.25rem;
     border: 1px solid black;
-    background-image: url(/assets/img/ballo2.png);
-    animation: ballo 4s steps(19) infinite;
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/ballo.png);
+    animation: ballo 5s steps(19) infinite;
+    border: none;
+}
+.profile-photo:hover{
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/what.jpeg);
+    animation: none;
+}
+.profile-photo:hover p{
+    font-size: 2rem;
+    color: var(--bianco);
+    text-align: center;
+    margin-top: 10rem;
+}
+.profile-photo p{
+    font-size: 0rem;
 }
 @keyframes ballo {
-    100%{ background-position: -5061px ,0px;}
-    
+    100%{ background-position: -5092px ,0px;}
 }
 .skills-name{
     width: 6.875rem;
@@ -382,7 +378,6 @@ a:hover ~.cube{
     justify-content: space-around;
     font-family: var(--secondary-font);
 }
-
 .skills-name div{
     align-items: center;
     padding-right: .313rem;
@@ -426,25 +421,20 @@ a:hover ~.cube{
     animation: progressAfter 5s infinite linear;
     background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
     background-size: 40px 40px;
-
 }
 .bar-container:hover .bar::before,.bar-container:hover .bar::after{
     animation:none;
 }
-
 @keyframes progressAfter {
     0%{background-position: 40px 0;width: 1.25rem;}
     50%{width: calc(2px *var(--a));}
     100%{background-position: 0 0;width: 1.25rem;}
-
-    
 }
 @keyframes progress {
     0%{width: 1.25rem;}
     50%{width: calc(2px *var(--a));}
     100%{width: 1.25rem;}
 }
-
 
 /* cards about me  */
 .container-about-me{
@@ -455,9 +445,7 @@ a:hover ~.cube{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    
 }
-
 #about-me{
     background-color: var(--magenta);
     color: var(--bianco);
@@ -532,8 +520,6 @@ strong{
     height: 18.75rem;
     position: relative;
     z-index: 0;
-    
-    
 }
 .card:hover .study::before,.card:hover .interest::before,.card:hover .about-me::before{
     background: white;
@@ -541,7 +527,6 @@ strong{
 .study:hover,.interest:hover,.about-me:hover{
     transition: 1.5s;
     transform: translateY(-6.25rem);
-
 }
 .title{
     position: absolute;
@@ -551,6 +536,7 @@ strong{
 .icon:nth-child(5),.icon:nth-child(6){
     font-size: .938rem;
 }
+
 /* projects  */
 #projects{
     background-color: var(--bianco);
@@ -568,45 +554,22 @@ strong{
 }
 .first-project img{
     width: 80%;
-    /* z-index: -99; */
-    
 }
-/* .first-project a::before{
-    content:"";
-    position: absolute;
-    height: 110%;
-    width: 70%;
-    z-index: -1;
-    filter: blur(20px);
-    animation: animateGlow 1s linear infinite;
-} */
-/* @keyframes animateGlow {
-    0% {background: linear-gradient(to right,var(--magenta),var(--bianco) 0%,var(--magenta),var(--bianco) 0%,var(--magenta),var(--bianco) 0%,var(--magenta));}
-    25%{background: linear-gradient(to right,var(--magenta),var(--bianco) 50%,var(--magenta),var(--bianco) 50%,var(--magenta),var(--bianco) 50%,var(--magenta));}
-    50%{background: linear-gradient(to right,var(--magenta),var(--bianco) 100%,var(--magenta),var(--bianco) 100%,var(--magenta),var(--bianco) 100%,var(--magenta));}
-    75%{background: linear-gradient(to right,var(--magenta),var(--bianco) 50%,var(--magenta),var(--bianco) 50%,var(--magenta),var(--bianco) 50%,var(--magenta));}
-    100%{background: linear-gradient(to right,var(--magenta),var(--bianco) 0%,var(--magenta),var(--bianco) 0%,var(--magenta),var(--bianco) 0%,var(--magenta));}
-} */
+
 .first-project a:hover{
     transform: scale(1.2);
     transition: 1.2s;
-
 }
-/* .first-project img:hover  */
-
 .coming-soon p{
     font-size:0;
     color: var(--magenta);
     font-weight: var(--primary-font);
     text-shadow: 0px 1.875rem 5px rgb(0, 0, 0);
-    
-
 }
 .coming-soon:hover p{
     animation: coming 5s forwards;
     cursor: default;
 }
-
 @keyframes coming {
     100%{font-size: 5rem;}
 }
@@ -617,8 +580,6 @@ strong{
     color: var(--bianco);
     flex-direction: column;
     justify-content: space-around;
-
-
 }
 .container-form{
     display: flex;
@@ -629,28 +590,30 @@ strong{
 form{
     font-family: var(--secondary-font);
     flex-direction: column;
-    align-items: center;
-
+    align-items: flex-start;
+    margin-left: 5rem;
 }
 .say-goodbye{
-    border:1px solid white;
     height: 25rem;
     width: 18rem;
+    background-image: url(/SerenaGiumentaro.github.io/assets/img/byebye.png);
+    animation: hellohello 6s steps(23) infinite;
+}
+@keyframes hellohello {
+    100%{background-position: -6946px ,0;}
 }
 input,textarea{
     font-family: var(--secondary-font);
-    margin: .75rem;
+    margin: 0.5rem 0 1rem 0;
+    width: 18rem;
 }
-input:focus{
-    border-color: #d81159;
-}
-
 input[type="submit"]{
     width: 7rem;
     height: 1.8rem;
     background:var(--magenta);
     color: var(--bianco);
     justify-self: center;
+    align-self: center;
 }
 .social{
     flex-direction: row;
@@ -669,12 +632,17 @@ input[type="submit"]{
 footer{
     background: linear-gradient(to right, #434343, #00000050);
     height: 20%;
+    justify-content: center;
+    align-items: center;
 }
 footer div{
     text-align: center;
 }
-.up{
+.copyright{
+    height: 2rem;
 
+}
+.up{
     position: fixed;
     bottom: 3.125rem;
     right: 3.125rem;
@@ -686,20 +654,8 @@ footer div{
     color: var(--magenta);
     text-decoration: none;
     font-size: 1.25rem;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* media queries */
 
 @media screen and (min-width:30.063rem){
     .container-about-me{
@@ -711,7 +667,12 @@ footer div{
    .img-animated,.img-pointer{
        display: none;
    }
-   
+   .item1 .empty:hover .first,.item2 .empty:hover .second,.item3 .empty:hover .third,.item4 .empty:hover .fourth{
+    display:none;
+ }
+ .profile-mobile{
+     display: block;
+ }
     #skills{
         margin-bottom: 21.875rem;
     }
@@ -724,21 +685,29 @@ footer div{
     @keyframes coming {
         100%{font-size: 3rem;}
     }
+    .container-form{
+        flex-direction: column;
+    }
+    #contact{
+        height: 70rem;
+    }
+    form{
+        margin: 5rem 0;
+    }
 }
 @media (max-width:64rem){
     .container-skills{
         width: 100%;
         background:none;
     }
-
 }
-
 @media screen and (max-width:19.938rem) {
-   
+
     .skills-name {
        width: 5rem;
     }
     .skills-name div{
         font-size: .5rem;
     }
+
 }
